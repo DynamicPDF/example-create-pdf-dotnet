@@ -5,12 +5,13 @@ using System.IO;
 
 namespace example_create_pdf_dotnet
 {
-    //This example shows how to create a PDF document from scratch
-    // This code uses the DynamicPDF Generator for .NET product.
-    // Import the ceTe.DynamicPDF namespace for the Document and Page classes.
-    // Import the ceTe.DynamicPDF.PageElements namespace to use page elements (the Label class in this case).
+    // This example shows how to create a PDF document from scratch.
+    // It references the ceTe.DynamicPDF.CoreSuite.NET NuGet package.
     class Program
     {
+        // Create a PDF document from scratch.
+        // Use the ceTe.DynamicPDF namespace for the Document and Page classes.
+        // Use the ceTe.DynamicPDF.PageElements namespace to use page elements (the Label class in this case).
         static void Main(string[] args)
         {
             //Create a Document object
